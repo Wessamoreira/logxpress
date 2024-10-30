@@ -1,0 +1,125 @@
+<!LogXpress html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogXpress - Plataforma de Serviços B2B</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { display: flex; align-items: center; padding: 10px 20px; background-color: #f3f3f3; }
+        header img { height: 60px; }
+        nav { flex-grow: 1; display: flex; justify-content: center; gap: 20px; }
+        nav a { text-decoration: none; color: #333; font-weight: bold; }
+        .banner { background: url('BANNER\ NV.png') no-repeat center; background-size: cover; height: 300px; display: flex; align-items: center; justify-content: center; color: rgb(248, 243, 243); text-align: center; }
+        .banner h1 { font-size: 2.5em; }
+        .section { padding: 20px; }
+        .section h2 { color: #0066cc; }
+        .recent-activities, .highlights { display: flex; gap: 20px; }
+        .activity-card, .highlight-card { flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 8px; background-color: #fff; }
+        .activity-card img, .highlight-card img { width: 100%; height: auto; border-radius: 8px; }
+        footer { background-color: #333; color: white; padding: 20px; display: flex; justify-content: space-between; }
+        footer a { color: #aaa; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <img src="LOGO NV.PNG" alt="Logo LogXpress">
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#solicitar-servico">Solicitar Serviço</a>
+            <a href="#meus-servicos">Meus Serviços</a>
+            <a href="#avaliacoes">Avaliações</a>
+            <a href="#contratos">Contratos</a>
+            <a href="#perfil">Perfil</a>
+        </nav>
+        <div class="user-icons">
+            <span>🔔</span> 
+            <span>👤</span> 
+        </div>
+    </header>
+
+    
+    <div class="banner">
+        <div>
+            <h1>Bem-vindo à LogXpress!</h1>
+            <p>Conectando empresas com prestadores de serviços de qualidade.</p>
+            <button onclick="window.location.href='#explorar'">Explorar</button>
+        </div>
+    </div>
+
+    
+    <section class="section recent-activities">
+        <h2>Atividades Recentes</h2>
+        <div class="activity-card">
+            <h3>Solicitações Recentes</h3>
+            <p>Acompanhe as solicitações mais recentes em andamento.</p>
+            <img src="SOLICITAÇÃO RECENTE.png" alt="Solicitações Recentes">
+            <button>Ver Detalhes</button>
+        </div>
+        <div class="activity-card">
+            <h3>Contratos Ativos</h3>
+            <p>Confira os contratos que estão em andamento.</p>
+            <img src="CONTRATOS ATIVOS.png" alt="Contratos Ativos">
+            <button>Ver Contrato</button>
+        </div>
+    </section>
+
+    
+    <section class="section highlights">
+        <h2>Serviços em Destaque</h2>
+        <div class="highlight-card">
+            <img src="TRANSPORTE LOGISTICO.png" alt="Serviço de Transporte">
+            <h3>Transporte Logístico</h3>
+            <p>Serviços de transporte rápido e seguro para sua empresa.</p>
+            <button>Saiba Mais</button>
+        </div>
+        <div class="highlight-card">
+            <img src="ATENDIEMNTO AO CLIENTE.png" alt="Atendimento ao Cliente">
+            <h3>Atendimento ao Cliente</h3>
+            <p>Profissionais treinados para oferecer ao suporte ao cliente.</p>
+            <button>Saiba Mais</button>
+        </div>
+        <div class="highlight-card">
+            <img src="SERVICOS EMPRESARIAS.png" alt="Serviços Empresariais">
+            <h3>Serviços Empresariais</h3>
+            <p>Desde consultoria até suporte administrativo.</p>
+            <button>Saiba Mais</button>
+        </div>
+    </section>
+
+    
+    <section class="section reviews">
+        <h2>Avaliações Recentes</h2>
+        <div class="review">
+            <p><strong>Maria da Silva</strong> ★★★★★ - "Excelente serviço!"</p>
+            <p>Foi ótimo trabalhar com a LogXpress. Serviço rápido e eficiente.</p>
+        </div>
+        <div class="review">
+            <p><strong>João Santos</strong> ★★★★☆ - "Muito bom, recomendo!"</p>
+            <p>Contratei o serviço de transporte e fiquei muito satisfeito.</p>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div>
+            <h4>Sobre a LogXpress</h4>
+            <p>Plataforma inovadora de terceirização de serviços B2B.</p>
+        </div>
+        <div>
+            <h4>Links Úteis</h4>
+            <a href="#politica">Política de Privacidade</a><br>
+            <a href="#termos">Termos de Uso</a><br>
+            <a href="#suporte">Suporte</a>
+        </div>
+        <div>
+            <h4>Siga-nos</h4>
+            <a href="#linkedin">LinkedIn</a> | <a href="#facebook">Facebook</a> | <a href="#instagram">Instagram</a>
+        </div>
+    </footer>
+
+</body>
+</html>
